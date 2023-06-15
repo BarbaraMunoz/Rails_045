@@ -1,2 +1,32 @@
-<h1>Projects#index</h1>
-<p>Find me in app/views/projects/index.html.erb</p>
+<!--Cards con fotos de proyectos-->
+
+<div class="container align-center">
+    <div class="row m-5">
+        <div class="card col-4 me-5" style="width: 18rem;">
+            <%=image_tag("foto1.png",  alt: "Meet&Coffee")%>
+            <div class="card-body">
+                <h5 class="card-title">Meet & Coffee</h5>
+                <p class="card-text">Primer proyecto desarrollado en html para bootcamp de Ruby on Rails</p>
+                <a href="#" class="btn boton">Ver más</a>
+            </div>
+        </div>
+
+        <div class="card col-4" style="width: 18rem;">
+            <%=image_tag("foto2.png",  alt: "Iguana")%>
+            <div class="card-body">
+                <h5 class="card-title">Iguana Page</h5>
+                <p class="card-text">Segundo proyecto desarrollado en html para bootcamp de Ruby on Rails</p>
+                <a href="#" class="btn boton">Ver más</a>
+            </div>
+        </div>
+
+        <div class="card col-4 ms-5" style="width: 18rem;">
+            <%=image_tag("foto3.png",  alt: "Suricata")%>
+            <div class="card-body">
+                <h5 class="card-title">Suricata</h5>
+                <p class="card-text">Tercer proyecto desarrollado en html para bootcamp de Ruby on Rails</p>
+                <a href="#" class="btn boton">Ver más</a>
+            </div>
+        </div>
+    </div>
+</div>
