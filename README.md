@@ -3,6 +3,9 @@ Repositorio contiene distintos proyectos realizados en Rails.
 
 *Branches*
 
-1. main
+* main
 
-2. desafio_nuevo_proyecto_rails
+1_desafio_nuevo_proyecto_rails
+
+2_desafio_acelerar_construccion_proyecto 
+
