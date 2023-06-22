@@ -7,10 +7,34 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
+    <!-- css -->
+    <%= stylesheet_link_tag "fontawesome-all.min" %>
+    <%= stylesheet_link_tag "main" %>
+    <%= stylesheet_link_tag "noscript" %>
+
+
+
   </head>
 
   <body>
-    <%= yield %>
+
+    <!-- Main -->
+		<div id="main">
+
+    <%= render 'shared/header' %>
+
+      <%= yield %>
+
+    <%= render 'shared/footer'%>
+    
+
+    </div>
+
+    <!-- Scripts -->
+		<%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "browser.min" %>
+    <%= javascript_include_tag "breakpoints.min" %>
+    <%= javascript_include_tag "main" %>
+      
   </body>
 </html>
