@@ -9,4 +9,4 @@ Repositorio contiene distintos proyectos realizados en Rails.
 
 2_desafio_acelerar_construccion_proyecto 
 
-3_desafio_almacenar_informacion_bd
+
